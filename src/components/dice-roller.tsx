@@ -279,7 +279,7 @@ export function DiceRoller() {
           </Card>
           <div className="flex items-center justify-center">
             <Link
-              href="https://github.com/stalker168"
+              href="https://github.com/salamander-git"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 rounded-full bg-card p-2 pr-4 text-sm text-foreground transition-colors hover:bg-muted"

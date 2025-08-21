@@ -295,7 +295,7 @@ export function DiceRoller() {
               <div className="flex flex-col">
                 <span className="font-semibold">Made by Salamander</span>
                 <span className="text-xs text-muted-foreground">
-                  github.com/stalker168
+                  github.com/salamander-git
                 </span>
               </div>
             </Link>

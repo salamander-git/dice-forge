@@ -148,7 +148,7 @@ export function DiceRoller() {
 
           <Card>
             <CardHeader>
-              <CardTitle>Simulation</CardTitle>
+              <CardTitle>Dice Roll</CardTitle>
             </CardHeader>
             <CardContent className="flex flex-col items-center justify-center space-y-4">
                <Tooltip>

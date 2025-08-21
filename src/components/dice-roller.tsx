@@ -268,7 +268,7 @@ export function DiceRoller() {
                           <code className="rounded-md bg-muted px-2 py-1 font-code">
                             (1d6+4)/2
                           </code>{' '}
-                          - Parentheses are not yet supported. This will be calculated as 1d6 + (4/2).
+                          - Roll one 6-sided die, add 4, and then divide the total by 2.
                         </li>
                       </ul>
                     </div>

@@ -286,7 +286,7 @@ export function DiceRoller() {
             >
               <Avatar className="h-10 w-10">
                 <AvatarImage
-                  src="/SalamanderWeb.gif"
+                  src="/SalamanderWeb.webp"
                   alt="Salamander"
                   data-ai-hint="salamander fire"
                 />

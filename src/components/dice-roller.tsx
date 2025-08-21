@@ -286,9 +286,9 @@ export function DiceRoller() {
             >
               <Avatar className="h-10 w-10">
                 <AvatarImage
-                  src="/SalamanderWeb.webp"
+                  src="/dice-forge/SalamanderWeb.webp"
                   alt="Salamander"
-                  data-ai-hint="salamander fire"
+                  className="w-full h-full object-cover"
                 />
                 <AvatarFallback>S</AvatarFallback>
               </Avatar>

@@ -314,7 +314,7 @@ export const calculateProbabilityDistribution = (terms: ParsedTerm[]) => {
     }
     
     try {
-        const finalDistribution = evaluate(terms, 'dist');
+        const finalDistribution: Distribution = evaluate(terms, 'dist');
         if (!finalDistribution) return [];
 
         let totalCombinations = 0;
@@ -325,7 +325,7 @@ export const calculateProbabilityDistribution = (terms: ParsedTerm[]) => {
         if (totalCombinations === 0) return [];
 
         const result = Array.from(finalDistribution.entries())
-            .map(([value, count]) => ({
+            .map(([value, count]: [number, number]) => ({
                 value,
                 probability: count / totalCombinations,
             }))
